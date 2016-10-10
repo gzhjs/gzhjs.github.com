@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git //部署类型，我采用的是git上传
+  repo: https://github.com/gzhjs/gzhjs.github.com.git //部署的github仓库地址，此处必须是刚刚部署的仓库的SSH地址
+  branch: master //部署仓库的分支(默认为master分支)
